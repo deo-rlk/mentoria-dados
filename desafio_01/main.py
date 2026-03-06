@@ -1,19 +1,58 @@
 import requests
 import pandas as pd
+import csv
+import time
+from datetime import datetime, timedelta
+from pathlib import Path
 
-url = 'https://raw.githubusercontent.com/Moscarde/Junior_Zone/automation/data/googlesheets_dataset.csv'
+def request_data(labels):
+        print(labels)
+        responses = []
 
-# local_data = 'C:/Users/odewaldo.rodrigues_i/Desktop/GitHub/mentoria-dados/Junior_Zone/data/googlesheets_dataset.csv'
+        with requests.Session() as session:
+            for label in labels:
+                print(f"Requesting for '{label}'...")
+                url = f"https://portal.api.gupy.io/api/job?name={label}&offset=0&limit=400"
 
-data = pd.read_csv(url, sep=',')
+                try:
+                    request = session.get(url, headers=headers)
+                    response = request.json().get("data", [])
+                    responses.append(response)
 
-dataFrame = pd.DataFrame(data)
+                    pd.DataFrame(request.json().get("data", [])).to_json(
+                        f"dados/vagas/{label}.json", orient='index', indent=1, date_format='iso'
+                    )
 
-path = 'C:/Users/odewaldo.rodrigues_i/Desktop/GitHub/mentoria-dados/dados/vagas/data.json'
+                    print(f"Found {len(response)} results for '{label}'...")
+                    time.sleep(0.5)
 
-output = dataFrame.to_json(orient='index',indent=1 ,date_format='iso', path_or_buf=path)
+                except Exception as e:
+                    print(e)
+
+        return responses
+    
+headers= {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0 (Edition std-1)"
+        }    
+
+labels = [
+    "analista",
+    "dados",
+    "python",
+    "data",
+    "Desenvolvedor",
+    "Dev",
+    "Front-end",
+    "Back-end",
+    "Full Stack",
+    "FullStack",
+    "Software",
+    "DevOps",
+    "Business Intelligence",
+    "Machine Learning",
+    "Inteligência Artificial",
+]
 
 
-#data.to_json(storage_options='C:/Users/odewaldo.rodrigues_i/Desktop/GitHub/mentoria-dados/dados/vagas')
+request_data(labels)
 
-print(output)

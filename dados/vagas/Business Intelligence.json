@@ -1,0 +1,48 @@
+{
+ "0":{
+  "id":7171990,
+  "companyId":5581,
+  "name":"Analista de Business Intelligence",
+  "description":"Nossos valores moldam a cultura da nossa organiza\u00e7\u00e3o e definem o car\u00e1ter de nossa companhia. Vivemos os valores essenciais por meio dos comportamentos individuais. Eles s\u00e3o os pilares para nossa forma de agir e de tomar decis\u00f5es.Responsabilidades e atribui\u00e7\u00f5esResponsabilidades: Levantamento e organiza\u00e7\u00e3o de dados em Oracle, SQL ou SAS.Far\u00e1 diagn\u00f3sticos, an\u00e1lise de tend\u00eancias e estudos de oportunidades.Gera\u00e7\u00e3o de relat\u00f3rios estrat\u00e9gicos e apresenta\u00e7\u00f5es executivas.Requisitos e qualifica\u00e7\u00f5esRequisitos: Gradua\u00e7\u00e3o em \u00e1reas afins;conhecimento intermedi\u00e1rio em Oracle, SQL ou SAS (constru\u00e7\u00e3o de query); Excel avan\u00e7ado; Power Point avan\u00e7ado; e Power BI.Informa\u00e7\u00f5es adicionaisDiferenciais: No\u00e7\u00f5es de estat\u00edstica.Compet\u00eancias \/ Soft Skills: Proatividade; Boa Comunica\u00e7\u00e3o; Senso de Urg\u00eancia; e Organiza\u00e7\u00e3o.",
+  "careerPageId":166396,
+  "careerPageName":"QiBit Vagas",
+  "careerPageLogo":"https:\/\/attachments.gupy.io\/production\/companies\/5581\/career\/166396\/images\/2024-04-03_15-29_companyLogoUrl.png",
+  "type":"vacancy_type_effective",
+  "publishedDate":"2024-05-15T17:57:42.103Z",
+  "applicationDeadline":null,
+  "isRemoteWork":true,
+  "city":"",
+  "state":"",
+  "country":"Brasil",
+  "jobUrl":"https:\/\/qibit.gupy.io\/job\/eyJqb2JJZCI6NzE3MTk5MCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+  "badges":{
+   "friendlyBadge":false
+  },
+  "disabilities":true,
+  "workplaceType":"remote",
+  "careerPageUrl":"https:\/\/qibit.gupy.io\/eyJzb3VyY2UiOiJndXB5X3BvcnRhbCJ9"
+ },
+ "1":{
+  "id":4637675,
+  "companyId":51982,
+  "name":"Business Intelligence Analyst (MKT)",
+  "description":"Somos uma consultoria de marketing e tecnologia que utiliza ci\u00eancias exatas para melhorar a rela\u00e7\u00e3o entre marcas e pessoas.&nbsp;Combinamos nossas diversas experi\u00eancias, equipes, tecnologia e processos testados em mais de 200 marcas, 20 pa\u00edses e milh\u00f5es de pessoas impactadas para decodificar desafios.&nbsp;Conhe\u00e7a nossas unidades de neg\u00f3cio:&nbsp;MATH ADS: Gere mais leads qualificados combinando estrat\u00e9gia, dados e tecnologias para alavancar convers\u00f5es. ads.math.group&nbsp;MATH CRM: Deixe que as equipes de vendas e atendimento possam focar em seus clientes. crm.math.group&nbsp;MATH MKT: Venda mais e melhore o relacionamento atrav\u00e9s de an\u00e1lise de dados e estrat\u00e9gias para otimizar convers\u00f5es. math.marketing&nbsp;MATH TECH: Tenha squads de \u00e1geis com cultura DevOps e DataOps para processos de transforma\u00e7\u00e3o digital tech.math.group\/Aqui voc\u00ea vai encontrar:\u2022\tDinamismo e abertura para troca de ideias e experi\u00eancias;\u2022\tOportunidade de crescer profissionalmente;\u2022\tCultura plural e aberta;\u2022\tOnboarding e colegas receptivos;\u2022\t\u00d3tima infraestrutura remota de trabalho;\u2022\tAmbientes f\u00edsicos e virtual din\u00e2micos e descontra\u00eddos;\u2022\tCultura colaborativa, de gest\u00e3o horizontal e incentivo \u00e0 troca de feedbacks;\u2022\tWork Life balance: programa de bem-estar no trabalho, meetups para desenvolvimento de hard e soft skills, happy hours constantes entre o time.Responsabilidades e atribui\u00e7\u00f5es\u2022\tDesenvolver reports e dashboards;\u2022\tDesenvolver ETL (Extract Transform Load process) com diferentes bases de dados;\u2022\tAutomatizar atualiza\u00e7\u00e3o de bases, reports e dashboards;\u2022\tGerar Insights com base em an\u00e1lise de dados;\u2022\tApoiar o cliente na tomada de decis\u00e3o baseada em dados;\u2022\tApresentar resultados para o cliente.Requisitos e qualifica\u00e7\u00f5es\u2022\tSQL e NoSQL;\u2022\tPower BI, Tableau ou DataStudio;\u2022\tPython.",
+  "careerPageId":120757,
+  "careerPageName":"MATH",
+  "careerPageLogo":"https:\/\/attachments.gupy.io\/production\/companies\/51982\/career\/120757\/images\/2023-01-23_22-48_companyLogoUrl.png",
+  "type":"vacancy_type_effective",
+  "publishedDate":"2023-04-18T14:07:22.150Z",
+  "applicationDeadline":null,
+  "isRemoteWork":true,
+  "city":"S\u00e3o Paulo",
+  "state":"S\u00e3o Paulo",
+  "country":"Brasil",
+  "jobUrl":"https:\/\/mathvagas&120757&inactive.gupy.io\/job\/eyJqb2JJZCI6NDYzNzY3NSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+  "badges":{
+   "friendlyBadge":false
+  },
+  "disabilities":true,
+  "workplaceType":"remote",
+  "careerPageUrl":""
+ }
+}
