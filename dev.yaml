@@ -1,0 +1,33 @@
+project:
+  name: mentoria-dados
+  enviroment: dev
+
+paths:
+  data_root: "dados"
+  vagas: "dados/vagas"
+
+loggging:
+  level: "INFO"
+  log_file: "data/logs/data.log"
+
+api:
+  api_path: "https://portal.api.gupy.io/api/job?name={label}&offset=0&limit=400"
+  headers: {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0 (Edition std-1)"} 
+  api_labels:
+    [
+    "analista",
+    "dados",
+    "python",
+    "data",
+    "Desenvolvedor",
+    "Dev",
+    "Front-end",
+    "Back-end",
+    "Full Stack",
+    "FullStack",
+    "Software",
+    "DevOps",
+    "Business Intelligence",
+    "Machine Learning",
+    "Inteligência Artificial",
+    ]
